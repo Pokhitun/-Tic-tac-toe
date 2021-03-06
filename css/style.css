@@ -1,0 +1,50 @@
+
+.wraper{
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr;
+}
+.cell{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 150px;
+    text-align: center;
+    vertical-align: center;
+}
+.cell:hover{
+    background-color: beige;
+}
+
+.menu-btn{
+    width:  100%;
+    display: flex;
+}
+.newGame{
+    width:  200px;
+    height: 50px;
+    background-color:  aquamarine;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+.newGame:hover{
+    background-color: beige;
+}
+.winText{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.wraper-score{
+    width: 200px;
+}
